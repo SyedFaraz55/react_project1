@@ -3,11 +3,24 @@
     margin:0;
     padding:0;
 }
-/* .header {
+body {
+    background: lightblue !important;
+}
+.container {
+    width: 80%;
+}
+.mixer {
+    padding-top: 20px;
+}
+
+.header {
     padding:18px;
     background-color: brown;
     color:white;
     text-align: center;
+}
+.header h2 {
+    color:white;
 }
 .newsItem{
     width: 90%;
@@ -19,9 +32,8 @@
     border: 1px dotted silver;
     margin-bottom: 10px;
 }
-.actions {
-    margin-top:12px;
-} */
+
+
 .card {
     margin-bottom:16px;
 }

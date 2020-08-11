@@ -6,7 +6,7 @@ const NewsList = ({news}) =>{
         return <NewsListItem key={item.id} item={item} />
    })
     return (
-      <div className="container">
+      <div className="container mixer">
            {items}
       </div>
     )

@@ -1,18 +1,15 @@
-import React from 'react'
+import React from "react";
+import Search from './search'
+import Nav from './nav'
 
-const Header = ({keywords}) => {
+const Header = ({ keywords }) => {
+  return (
+    <div className="">
+      <Nav/>
+	  <br/>
+      <Search keywords={keywords}/>
+    </div>
+  );
+};
 
-
- 
- 	return (
- 		<div className="header">
- 			<h2>Logo</h2>
- 			<input type="text"
-				onChange={keywords} placeholder="search"
-			/>
- 		</div>
- 	)
-
-}
-
-export default Header
+export default Header;
