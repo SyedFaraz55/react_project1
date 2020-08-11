@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/* .header {
+    padding:18px;
+    background-color: brown;
+    color:white;
+    text-align: center;
+}
+.newsItem{
+    width: 90%;
+    margin:0 auto;
+    padding-top: 30px;
+}
+.news-list-item {
+    padding:10px;
+    border: 1px dotted silver;
+    margin-bottom: 10px;
+}
+.actions {
+    margin-top:12px;
+} */
+.card {
+    margin-bottom:16px;
+}
